@@ -17,7 +17,7 @@ website:
       - icon: X
         href: https://x.com/ezgielci35
       - icon: github
-        href: https://github.com/ezgielci/ezgielci
+        href: https://github.com/ezgielci/ezgielci.github.io.git
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)"
     left: "&copy; Copyright 2023, Ezgi Elçi"
