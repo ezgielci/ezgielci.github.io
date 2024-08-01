@@ -8,15 +8,19 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - projects.qmd
+      - research.qmd
+      - teaching.qmd
+      - contact.qmd
     tools:
-      - icon: twitter
-        href: https://twitter.com/
+      - icon: envelope
+        href: ezgi.elci@ozyegin.edu.tr
+      - icon: X
+        href: https://x.com/ezgielci35
       - icon: github
         href: https://github.com/ezgielci/ezgielci
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2023, Ezgi Elci"
+    left: "&copy; Copyright 2023, Ezgi Elçi"
 
 format:
   html:
