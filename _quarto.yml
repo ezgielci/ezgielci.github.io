@@ -4,6 +4,7 @@ project:
   
 website:
   title: "Ezgi Elçi, PhD"
+  site-url: "https://ezgielci.github.io/"
   navbar:
     left:
       - href: index.qmd
@@ -11,7 +12,6 @@ website:
       - research.qmd
       - teaching.qmd
       - contact.qmd
-      - robots.txt
     tools:
       - icon: envelope
         href: ezgi.elci@ozyegin.edu.tr
@@ -32,3 +32,4 @@ editor: source
 
 resources:
   - googlec84a8fa9eb2a51bb.html
+  - robots.txt
