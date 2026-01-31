@@ -3,8 +3,16 @@ project:
   output-dir: docs
   
 website:
-  title: "Ezgi Elçi, PhD"
-  site-url: "https://ezgielci.github.io/"
+  title: "Ezgi Elçi, PhD | Political Scientist"
+  site-url: "https://ezgielci.github.io"
+  description: "Associate Professor at Özyeğin University. Research on populism, collective nostalgia, nativism, democratic backsliding, and political behavior in Turkey."
+  
+  # SEO improvements
+  sitemap: true
+  open-graph: true
+  twitter-card: true
+  image: profile.jpg  # add a profile photo to your root directory
+  
   navbar:
     left:
       - href: index.qmd
@@ -14,23 +22,23 @@ website:
       - contact.qmd
     tools:
       - icon: envelope
-        href: ezgi.elci@ozyegin.edu.tr
+        href: mailto:ezgi.elci@ozyegin.edu.tr
       - icon: twitter
         href: https://x.com/ezgielci35
       - icon: github
-        href: https://github.com/ezgielci/ezgielci.github.io.git
+        href: https://github.com/ezgielci
+        
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2023, Ezgi Elçi"
+    left: "&copy; Copyright 2025, Ezgi Elçi"
 
 format:
   html:
     theme: flatly
     toc: true
+    canonical-url: true
 
 editor: source
 
 resources:
   - googlec84a8fa9eb2a51bb.html
-
-metadata-files: []
